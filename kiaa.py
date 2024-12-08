@@ -10,6 +10,11 @@ screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Ski Tree Game")
 
+#موزيک
+pygame.mixer.music.load('02. Mehrad Hidden Ft Pishro - Rock A Chock.mp3')
+pygame.mixer.music.play(-1,0.0)
+musicPlaying=True
+
 # رنگ‌ها
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
